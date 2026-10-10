@@ -1,0 +1,20 @@
+# Entorno
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs de la API (request.log, error.log)
+logs/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
