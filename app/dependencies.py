@@ -30,3 +30,20 @@ def get_current_user(
 
 
 CurrentUser = Annotated[User, Depends(get_current_user)]
+
+
+def get_optional_user(
+    db: DbSession,
+    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(_bearer)],
+) -> User | None:
+    """Rutas públicas cuyo resultado depende de quién mira (p. ej. precios).
+
+    Sin token o con token no válido responde como visitante: nunca 401.
+    """
+    if credentials is None:
+        return None
+    user_id = decode_token(credentials.credentials)
+    return db.get(User, user_id) if user_id is not None else None
+
+
+OptionalUser = Annotated[User | None, Depends(get_optional_user)]

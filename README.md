@@ -1,6 +1,6 @@
 # Trama — API
 
-Backend de la tienda Trama: registro, inicio de sesión con JWT e inspiraciones guardadas (fotos de Pexels que el usuario guarda desde el frontend).
+Backend de la tienda Trama: catálogo con precios calculados en el servidor, registro e inicio de sesión con JWT e inspiraciones guardadas (fotos de Pexels que el usuario guarda desde el frontend).
 
 FastAPI · PostgreSQL · SQLAlchemy 2 · Alembic · Pydantic · Argon2 · PyJWT · pytest · ruff
 
@@ -33,6 +33,7 @@ API desplegada: _pendiente_
 
    ```bash
    alembic upgrade head
+   python -m app seed
    python -m app dev
    ```
 
@@ -46,6 +47,7 @@ En desarrollo no hace falta `.env`: los valores por defecto están en `app/confi
 | -------------------------------------- | ------------------------------------------------ |
 | `python -m app dev`                    | Desarrollo con recarga automática                |
 | `python -m app start`                  | Producción, sin recarga                          |
+| `python -m app seed`                   | Carga o actualiza el catálogo (idempotente)      |
 | `alembic upgrade head`                 | Aplica las migraciones                           |
 | `alembic revision --autogenerate -m …` | Crea una migración a partir de los modelos       |
 | `pytest`                               | Tests (usan la base `trama_test`)                |
@@ -61,9 +63,18 @@ En desarrollo no hace falta `.env`: los valores por defecto están en `app/confi
 | GET    | `/inspirations`      |  ✔   | Inspiraciones del usuario, de la más reciente a la más antigua |
 | POST   | `/inspirations`      |  ✔   | Guarda una foto → 201                                          |
 | DELETE | `/inspirations/{id}` |  ✔   | Borra una inspiración propia → 200 con la borrada              |
+| GET    | `/categories`        |      | Categorías con conteo de productos e imagen                    |
+| GET    | `/products`          |  ·   | Catálogo: `q`, `category`, `size`, `color`, `minPrice`, `maxPrice`, `tag`, `onSale`, `sort`, `page`, `pageSize` |
+| GET    | `/products/lookup`   |  ·   | Variantes por nombre o SKU (pedido rápido)                     |
+| GET    | `/products/{slug}`   |  ·   | Detalle con variantes y stock                                  |
+| POST   | `/pricing/quote`     |  ·   | `{ items: [{ variantId, quantity }] }` → precio con su escala  |
 | GET    | `/health`            |      | Estado de la API                                               |
 
-Las rutas protegidas exigen `Authorization: Bearer <token>`.
+Las rutas protegidas (✔) exigen `Authorization: Bearer <token>`. Las marcadas con `·` son públicas, pero si llega un token válido el precio se calcula para ese usuario.
+
+### Precios
+
+El backend calcula todos los precios (el frontend solo los muestra): precio base → precio de temporada → escala por cantidad. Las escalas (media docena, docena…) son **exclusivas de las cuentas mayoristas**; visitantes y compradores pagan el precio por unidad. Dinero en enteros COP, IVA incluido, redondeado a la centena.
 
 ```json
 // POST /inspirations

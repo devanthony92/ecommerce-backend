@@ -11,9 +11,11 @@ os.environ["LOG_DIR"] = tempfile.mkdtemp(prefix="trama-logs-")
 import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import text
+from sqlalchemy.orm import Session
 
 from app.database import Base, engine
 from app.main import app
+from app.seed import load_catalog
 
 PASSWORD = "Trama1234"
 
@@ -22,6 +24,8 @@ PASSWORD = "Trama1234"
 def schema():
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
+    with Session(engine) as db:
+        load_catalog(db)
     yield
     Base.metadata.drop_all(engine)
 

@@ -1,0 +1,4357 @@
+{
+ "categories": [
+  {
+   "id": "c-camisetas",
+   "slug": "camisetas",
+   "name": "Camisetas",
+   "parentId": null,
+   "position": 0
+  },
+  {
+   "id": "c-camisas",
+   "slug": "camisas",
+   "name": "Camisas",
+   "parentId": null,
+   "position": 1
+  },
+  {
+   "id": "c-jeans",
+   "slug": "jeans",
+   "name": "Jeans",
+   "parentId": null,
+   "position": 2
+  },
+  {
+   "id": "c-pantalones",
+   "slug": "pantalones",
+   "name": "Pantalones",
+   "parentId": null,
+   "position": 3
+  },
+  {
+   "id": "c-chaquetas",
+   "slug": "chaquetas",
+   "name": "Chaquetas",
+   "parentId": null,
+   "position": 4
+  },
+  {
+   "id": "c-gorras",
+   "slug": "gorras",
+   "name": "Gorras",
+   "parentId": null,
+   "position": 5
+  },
+  {
+   "id": "c-accesorios",
+   "slug": "accesorios",
+   "name": "Accesorios",
+   "parentId": null,
+   "position": 6
+  }
+ ],
+ "products": [
+  {
+   "id": "p-camiseta-basica",
+   "slug": "camiseta-basica",
+   "name": "Camiseta básica",
+   "categoryId": "c-camisetas",
+   "basePrice": 35000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "featured",
+    "bestseller",
+    "volume-offer"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Gris",
+     "hex": "#8a8d91"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta básica color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta básica color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%238a8d91%22%20stroke%3D%22rgb(104%20106%20109)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta básica color gris",
+     "color": "Gris",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta básica color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta básica confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-07-03T00:00:00.000Z",
+   "sold": 137,
+   "position": 0,
+   "variants": [
+    {
+     "id": "camiseta-basica-negro-xs",
+     "sku": "CAMBAS-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 5
+    },
+    {
+     "id": "camiseta-basica-negro-s",
+     "sku": "CAMBAS-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 152
+    },
+    {
+     "id": "camiseta-basica-negro-m",
+     "sku": "CAMBAS-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 47
+    },
+    {
+     "id": "camiseta-basica-negro-l",
+     "sku": "CAMBAS-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 113
+    },
+    {
+     "id": "camiseta-basica-negro-xl",
+     "sku": "CAMBAS-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 154
+    },
+    {
+     "id": "camiseta-basica-blanco-xs",
+     "sku": "CAMBAS-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 78
+    },
+    {
+     "id": "camiseta-basica-blanco-s",
+     "sku": "CAMBAS-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-basica-blanco-m",
+     "sku": "CAMBAS-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 42
+    },
+    {
+     "id": "camiseta-basica-blanco-l",
+     "sku": "CAMBAS-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-basica-blanco-xl",
+     "sku": "CAMBAS-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 15
+    },
+    {
+     "id": "camiseta-basica-gris-xs",
+     "sku": "CAMBAS-GRI-XS",
+     "size": "XS",
+     "color": "Gris",
+     "stock": 120
+    },
+    {
+     "id": "camiseta-basica-gris-s",
+     "sku": "CAMBAS-GRI-S",
+     "size": "S",
+     "color": "Gris",
+     "stock": 33
+    },
+    {
+     "id": "camiseta-basica-gris-m",
+     "sku": "CAMBAS-GRI-M",
+     "size": "M",
+     "color": "Gris",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-basica-gris-l",
+     "sku": "CAMBAS-GRI-L",
+     "size": "L",
+     "color": "Gris",
+     "stock": 93
+    },
+    {
+     "id": "camiseta-basica-gris-xl",
+     "sku": "CAMBAS-GRI-XL",
+     "size": "XL",
+     "color": "Gris",
+     "stock": 49
+    },
+    {
+     "id": "camiseta-basica-marino-xs",
+     "sku": "CAMBAS-MAR-XS",
+     "size": "XS",
+     "color": "Azul marino",
+     "stock": 103
+    },
+    {
+     "id": "camiseta-basica-marino-s",
+     "sku": "CAMBAS-MAR-S",
+     "size": "S",
+     "color": "Azul marino",
+     "stock": 118
+    },
+    {
+     "id": "camiseta-basica-marino-m",
+     "sku": "CAMBAS-MAR-M",
+     "size": "M",
+     "color": "Azul marino",
+     "stock": 113
+    },
+    {
+     "id": "camiseta-basica-marino-l",
+     "sku": "CAMBAS-MAR-L",
+     "size": "L",
+     "color": "Azul marino",
+     "stock": 120
+    },
+    {
+     "id": "camiseta-basica-marino-xl",
+     "sku": "CAMBAS-MAR-XL",
+     "size": "XL",
+     "color": "Azul marino",
+     "stock": 40
+    }
+   ]
+  },
+  {
+   "id": "p-camiseta-oversize",
+   "slug": "camiseta-oversize",
+   "name": "Camiseta oversize",
+   "categoryId": "c-camisetas",
+   "basePrice": 49000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "featured"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta oversize color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta oversize color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta oversize color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta oversize confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-04T00:00:00.000Z",
+   "sold": 421,
+   "position": 1,
+   "variants": [
+    {
+     "id": "camiseta-oversize-negro-xs",
+     "sku": "CAMOVE-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 53
+    },
+    {
+     "id": "camiseta-oversize-negro-s",
+     "sku": "CAMOVE-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 85
+    },
+    {
+     "id": "camiseta-oversize-negro-m",
+     "sku": "CAMOVE-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 99
+    },
+    {
+     "id": "camiseta-oversize-negro-l",
+     "sku": "CAMOVE-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 58
+    },
+    {
+     "id": "camiseta-oversize-negro-xl",
+     "sku": "CAMOVE-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 22
+    },
+    {
+     "id": "camiseta-oversize-beige-xs",
+     "sku": "CAMOVE-BEI-XS",
+     "size": "XS",
+     "color": "Beige",
+     "stock": 35
+    },
+    {
+     "id": "camiseta-oversize-beige-s",
+     "sku": "CAMOVE-BEI-S",
+     "size": "S",
+     "color": "Beige",
+     "stock": 130
+    },
+    {
+     "id": "camiseta-oversize-beige-m",
+     "sku": "CAMOVE-BEI-M",
+     "size": "M",
+     "color": "Beige",
+     "stock": 26
+    },
+    {
+     "id": "camiseta-oversize-beige-l",
+     "sku": "CAMOVE-BEI-L",
+     "size": "L",
+     "color": "Beige",
+     "stock": 60
+    },
+    {
+     "id": "camiseta-oversize-beige-xl",
+     "sku": "CAMOVE-BEI-XL",
+     "size": "XL",
+     "color": "Beige",
+     "stock": 10
+    },
+    {
+     "id": "camiseta-oversize-oliva-xs",
+     "sku": "CAMOVE-OLI-XS",
+     "size": "XS",
+     "color": "Verde oliva",
+     "stock": 14
+    },
+    {
+     "id": "camiseta-oversize-oliva-s",
+     "sku": "CAMOVE-OLI-S",
+     "size": "S",
+     "color": "Verde oliva",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-oversize-oliva-m",
+     "sku": "CAMOVE-OLI-M",
+     "size": "M",
+     "color": "Verde oliva",
+     "stock": 6
+    },
+    {
+     "id": "camiseta-oversize-oliva-l",
+     "sku": "CAMOVE-OLI-L",
+     "size": "L",
+     "color": "Verde oliva",
+     "stock": 72
+    },
+    {
+     "id": "camiseta-oversize-oliva-xl",
+     "sku": "CAMOVE-OLI-XL",
+     "size": "XL",
+     "color": "Verde oliva",
+     "stock": 153
+    }
+   ]
+  },
+  {
+   "id": "p-camiseta-cuello-v",
+   "slug": "camiseta-cuello-v",
+   "name": "Camiseta cuello V",
+   "categoryId": "c-camisetas",
+   "basePrice": 39000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Gris",
+     "hex": "#8a8d91"
+    },
+    {
+     "name": "Vinotinto",
+     "hex": "#6d1f2c"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta cuello V color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%238a8d91%22%20stroke%3D%22rgb(104%20106%20109)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta cuello V color gris",
+     "color": "Gris",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%236d1f2c%22%20stroke%3D%22rgb(82%2023%2033)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta cuello V color vinotinto",
+     "color": "Vinotinto",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta cuello V confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-13T00:00:00.000Z",
+   "sold": 331,
+   "position": 2,
+   "variants": [
+    {
+     "id": "camiseta-cuello-v-blanco-xs",
+     "sku": "CAMCUEV-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 10
+    },
+    {
+     "id": "camiseta-cuello-v-blanco-s",
+     "sku": "CAMCUEV-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 16
+    },
+    {
+     "id": "camiseta-cuello-v-blanco-m",
+     "sku": "CAMCUEV-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 77
+    },
+    {
+     "id": "camiseta-cuello-v-blanco-l",
+     "sku": "CAMCUEV-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 29
+    },
+    {
+     "id": "camiseta-cuello-v-blanco-xl",
+     "sku": "CAMCUEV-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 87
+    },
+    {
+     "id": "camiseta-cuello-v-gris-xs",
+     "sku": "CAMCUEV-GRI-XS",
+     "size": "XS",
+     "color": "Gris",
+     "stock": 17
+    },
+    {
+     "id": "camiseta-cuello-v-gris-s",
+     "sku": "CAMCUEV-GRI-S",
+     "size": "S",
+     "color": "Gris",
+     "stock": 76
+    },
+    {
+     "id": "camiseta-cuello-v-gris-m",
+     "sku": "CAMCUEV-GRI-M",
+     "size": "M",
+     "color": "Gris",
+     "stock": 136
+    },
+    {
+     "id": "camiseta-cuello-v-gris-l",
+     "sku": "CAMCUEV-GRI-L",
+     "size": "L",
+     "color": "Gris",
+     "stock": 108
+    },
+    {
+     "id": "camiseta-cuello-v-gris-xl",
+     "sku": "CAMCUEV-GRI-XL",
+     "size": "XL",
+     "color": "Gris",
+     "stock": 105
+    },
+    {
+     "id": "camiseta-cuello-v-vinotinto-xs",
+     "sku": "CAMCUEV-VIN-XS",
+     "size": "XS",
+     "color": "Vinotinto",
+     "stock": 129
+    },
+    {
+     "id": "camiseta-cuello-v-vinotinto-s",
+     "sku": "CAMCUEV-VIN-S",
+     "size": "S",
+     "color": "Vinotinto",
+     "stock": 6
+    },
+    {
+     "id": "camiseta-cuello-v-vinotinto-m",
+     "sku": "CAMCUEV-VIN-M",
+     "size": "M",
+     "color": "Vinotinto",
+     "stock": 51
+    },
+    {
+     "id": "camiseta-cuello-v-vinotinto-l",
+     "sku": "CAMCUEV-VIN-L",
+     "size": "L",
+     "color": "Vinotinto",
+     "stock": 120
+    },
+    {
+     "id": "camiseta-cuello-v-vinotinto-xl",
+     "sku": "CAMCUEV-VIN-XL",
+     "size": "XL",
+     "color": "Vinotinto",
+     "stock": 112
+    }
+   ]
+  },
+  {
+   "id": "p-camiseta-estampada-urbana",
+   "slug": "camiseta-estampada-urbana",
+   "name": "Camiseta estampada urbana",
+   "categoryId": "c-camisetas",
+   "basePrice": 55000,
+   "promoPrice": 45000,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "new"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta estampada urbana color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta estampada urbana color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta estampada urbana confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-12T00:00:00.000Z",
+   "sold": 881,
+   "position": 3,
+   "variants": [
+    {
+     "id": "camiseta-estampada-urbana-negro-xs",
+     "sku": "CAMESTURB-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 54
+    },
+    {
+     "id": "camiseta-estampada-urbana-negro-s",
+     "sku": "CAMESTURB-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 17
+    },
+    {
+     "id": "camiseta-estampada-urbana-negro-m",
+     "sku": "CAMESTURB-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 81
+    },
+    {
+     "id": "camiseta-estampada-urbana-negro-l",
+     "sku": "CAMESTURB-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-estampada-urbana-negro-xl",
+     "sku": "CAMESTURB-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 98
+    },
+    {
+     "id": "camiseta-estampada-urbana-blanco-xs",
+     "sku": "CAMESTURB-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 120
+    },
+    {
+     "id": "camiseta-estampada-urbana-blanco-s",
+     "sku": "CAMESTURB-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 114
+    },
+    {
+     "id": "camiseta-estampada-urbana-blanco-m",
+     "sku": "CAMESTURB-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 84
+    },
+    {
+     "id": "camiseta-estampada-urbana-blanco-l",
+     "sku": "CAMESTURB-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 68
+    },
+    {
+     "id": "camiseta-estampada-urbana-blanco-xl",
+     "sku": "CAMESTURB-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 115
+    }
+   ]
+  },
+  {
+   "id": "p-camiseta-deportiva",
+   "slug": "camiseta-deportiva",
+   "name": "Camiseta deportiva dry-fit",
+   "categoryId": "c-camisetas",
+   "basePrice": 45000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "bestseller"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    },
+    {
+     "name": "Gris",
+     "hex": "#8a8d91"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta deportiva dry-fit color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta deportiva dry-fit color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%238a8d91%22%20stroke%3D%22rgb(104%20106%20109)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta deportiva dry-fit color gris",
+     "color": "Gris",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta deportiva dry-fit confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-02T00:00:00.000Z",
+   "sold": 72,
+   "position": 4,
+   "variants": [
+    {
+     "id": "camiseta-deportiva-negro-xs",
+     "sku": "CAMDEP-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 120
+    },
+    {
+     "id": "camiseta-deportiva-negro-s",
+     "sku": "CAMDEP-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 98
+    },
+    {
+     "id": "camiseta-deportiva-negro-m",
+     "sku": "CAMDEP-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-deportiva-negro-l",
+     "sku": "CAMDEP-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 113
+    },
+    {
+     "id": "camiseta-deportiva-negro-xl",
+     "sku": "CAMDEP-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 140
+    },
+    {
+     "id": "camiseta-deportiva-marino-xs",
+     "sku": "CAMDEP-MAR-XS",
+     "size": "XS",
+     "color": "Azul marino",
+     "stock": 121
+    },
+    {
+     "id": "camiseta-deportiva-marino-s",
+     "sku": "CAMDEP-MAR-S",
+     "size": "S",
+     "color": "Azul marino",
+     "stock": 104
+    },
+    {
+     "id": "camiseta-deportiva-marino-m",
+     "sku": "CAMDEP-MAR-M",
+     "size": "M",
+     "color": "Azul marino",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-deportiva-marino-l",
+     "sku": "CAMDEP-MAR-L",
+     "size": "L",
+     "color": "Azul marino",
+     "stock": 50
+    },
+    {
+     "id": "camiseta-deportiva-marino-xl",
+     "sku": "CAMDEP-MAR-XL",
+     "size": "XL",
+     "color": "Azul marino",
+     "stock": 48
+    },
+    {
+     "id": "camiseta-deportiva-gris-xs",
+     "sku": "CAMDEP-GRI-XS",
+     "size": "XS",
+     "color": "Gris",
+     "stock": 113
+    },
+    {
+     "id": "camiseta-deportiva-gris-s",
+     "sku": "CAMDEP-GRI-S",
+     "size": "S",
+     "color": "Gris",
+     "stock": 7
+    },
+    {
+     "id": "camiseta-deportiva-gris-m",
+     "sku": "CAMDEP-GRI-M",
+     "size": "M",
+     "color": "Gris",
+     "stock": 36
+    },
+    {
+     "id": "camiseta-deportiva-gris-l",
+     "sku": "CAMDEP-GRI-L",
+     "size": "L",
+     "color": "Gris",
+     "stock": 23
+    },
+    {
+     "id": "camiseta-deportiva-gris-xl",
+     "sku": "CAMDEP-GRI-XL",
+     "size": "XL",
+     "color": "Gris",
+     "stock": 153
+    }
+   ]
+  },
+  {
+   "id": "p-camiseta-manga-larga",
+   "slug": "camiseta-manga-larga",
+   "name": "Camiseta manga larga",
+   "categoryId": "c-camisetas",
+   "basePrice": 52000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta manga larga color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta manga larga color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2095%20108%20112%2062%20172l42%2026%2020-20v232h152V178l20%2020%2042-26-46-60-42-17c-12%2022-30%2032-50%2032s-38-10-50-32Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camiseta manga larga color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camiseta manga larga confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-08T00:00:00.000Z",
+   "sold": 849,
+   "position": 5,
+   "variants": [
+    {
+     "id": "camiseta-manga-larga-blanco-xs",
+     "sku": "CAMMANLAR-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 5
+    },
+    {
+     "id": "camiseta-manga-larga-blanco-s",
+     "sku": "CAMMANLAR-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 35
+    },
+    {
+     "id": "camiseta-manga-larga-blanco-m",
+     "sku": "CAMMANLAR-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 15
+    },
+    {
+     "id": "camiseta-manga-larga-blanco-l",
+     "sku": "CAMMANLAR-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-manga-larga-blanco-xl",
+     "sku": "CAMMANLAR-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 150
+    },
+    {
+     "id": "camiseta-manga-larga-negro-xs",
+     "sku": "CAMMANLAR-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 145
+    },
+    {
+     "id": "camiseta-manga-larga-negro-s",
+     "sku": "CAMMANLAR-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 8
+    },
+    {
+     "id": "camiseta-manga-larga-negro-m",
+     "sku": "CAMMANLAR-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "camiseta-manga-larga-negro-l",
+     "sku": "CAMMANLAR-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 122
+    },
+    {
+     "id": "camiseta-manga-larga-negro-xl",
+     "sku": "CAMMANLAR-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 77
+    },
+    {
+     "id": "camiseta-manga-larga-oliva-xs",
+     "sku": "CAMMANLAR-OLI-XS",
+     "size": "XS",
+     "color": "Verde oliva",
+     "stock": 34
+    },
+    {
+     "id": "camiseta-manga-larga-oliva-s",
+     "sku": "CAMMANLAR-OLI-S",
+     "size": "S",
+     "color": "Verde oliva",
+     "stock": 146
+    },
+    {
+     "id": "camiseta-manga-larga-oliva-m",
+     "sku": "CAMMANLAR-OLI-M",
+     "size": "M",
+     "color": "Verde oliva",
+     "stock": 146
+    },
+    {
+     "id": "camiseta-manga-larga-oliva-l",
+     "sku": "CAMMANLAR-OLI-L",
+     "size": "L",
+     "color": "Verde oliva",
+     "stock": 152
+    },
+    {
+     "id": "camiseta-manga-larga-oliva-xl",
+     "sku": "CAMMANLAR-OLI-XL",
+     "size": "XL",
+     "color": "Verde oliva",
+     "stock": 146
+    }
+   ]
+  },
+  {
+   "id": "p-camisa-oxford",
+   "slug": "camisa-oxford",
+   "name": "Camisa oxford",
+   "categoryId": "c-camisas",
+   "basePrice": 89000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "featured"
+   ],
+   "colors": [
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa oxford color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa oxford color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camisa oxford confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-27T00:00:00.000Z",
+   "sold": 880,
+   "position": 6,
+   "variants": [
+    {
+     "id": "camisa-oxford-blanco-xs",
+     "sku": "CAMOXF-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camisa-oxford-blanco-s",
+     "sku": "CAMOXF-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camisa-oxford-blanco-m",
+     "sku": "CAMOXF-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 109
+    },
+    {
+     "id": "camisa-oxford-blanco-l",
+     "sku": "CAMOXF-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 65
+    },
+    {
+     "id": "camisa-oxford-blanco-xl",
+     "sku": "CAMOXF-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 40
+    },
+    {
+     "id": "camisa-oxford-denim-xs",
+     "sku": "CAMOXF-DEN-XS",
+     "size": "XS",
+     "color": "Azul denim",
+     "stock": 114
+    },
+    {
+     "id": "camisa-oxford-denim-s",
+     "sku": "CAMOXF-DEN-S",
+     "size": "S",
+     "color": "Azul denim",
+     "stock": 28
+    },
+    {
+     "id": "camisa-oxford-denim-m",
+     "sku": "CAMOXF-DEN-M",
+     "size": "M",
+     "color": "Azul denim",
+     "stock": 82
+    },
+    {
+     "id": "camisa-oxford-denim-l",
+     "sku": "CAMOXF-DEN-L",
+     "size": "L",
+     "color": "Azul denim",
+     "stock": 60
+    },
+    {
+     "id": "camisa-oxford-denim-xl",
+     "sku": "CAMOXF-DEN-XL",
+     "size": "XL",
+     "color": "Azul denim",
+     "stock": 85
+    }
+   ]
+  },
+  {
+   "id": "p-camisa-lino",
+   "slug": "camisa-lino",
+   "name": "Camisa de lino",
+   "categoryId": "c-camisas",
+   "basePrice": 99000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "new"
+   ],
+   "colors": [
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa de lino color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa de lino color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camisa de lino confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-21T00:00:00.000Z",
+   "sold": 115,
+   "position": 7,
+   "variants": [
+    {
+     "id": "camisa-lino-beige-xs",
+     "sku": "CAMLIN-BEI-XS",
+     "size": "XS",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "camisa-lino-beige-s",
+     "sku": "CAMLIN-BEI-S",
+     "size": "S",
+     "color": "Beige",
+     "stock": 50
+    },
+    {
+     "id": "camisa-lino-beige-m",
+     "sku": "CAMLIN-BEI-M",
+     "size": "M",
+     "color": "Beige",
+     "stock": 92
+    },
+    {
+     "id": "camisa-lino-beige-l",
+     "sku": "CAMLIN-BEI-L",
+     "size": "L",
+     "color": "Beige",
+     "stock": 127
+    },
+    {
+     "id": "camisa-lino-beige-xl",
+     "sku": "CAMLIN-BEI-XL",
+     "size": "XL",
+     "color": "Beige",
+     "stock": 80
+    },
+    {
+     "id": "camisa-lino-blanco-xs",
+     "sku": "CAMLIN-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camisa-lino-blanco-s",
+     "sku": "CAMLIN-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 16
+    },
+    {
+     "id": "camisa-lino-blanco-m",
+     "sku": "CAMLIN-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 38
+    },
+    {
+     "id": "camisa-lino-blanco-l",
+     "sku": "CAMLIN-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "camisa-lino-blanco-xl",
+     "sku": "CAMLIN-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 109
+    }
+   ]
+  },
+  {
+   "id": "p-camisa-cuadros",
+   "slug": "camisa-cuadros",
+   "name": "Camisa a cuadros",
+   "categoryId": "c-camisas",
+   "basePrice": 79000,
+   "promoPrice": 64000,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Vinotinto",
+     "hex": "#6d1f2c"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%236d1f2c%22%20stroke%3D%22rgb(82%2023%2033)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa a cuadros color vinotinto",
+     "color": "Vinotinto",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa a cuadros color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camisa a cuadros confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-16T00:00:00.000Z",
+   "sold": 779,
+   "position": 8,
+   "variants": [
+    {
+     "id": "camisa-cuadros-vinotinto-xs",
+     "sku": "CAMCUA-VIN-XS",
+     "size": "XS",
+     "color": "Vinotinto",
+     "stock": 132
+    },
+    {
+     "id": "camisa-cuadros-vinotinto-s",
+     "sku": "CAMCUA-VIN-S",
+     "size": "S",
+     "color": "Vinotinto",
+     "stock": 0
+    },
+    {
+     "id": "camisa-cuadros-vinotinto-m",
+     "sku": "CAMCUA-VIN-M",
+     "size": "M",
+     "color": "Vinotinto",
+     "stock": 113
+    },
+    {
+     "id": "camisa-cuadros-vinotinto-l",
+     "sku": "CAMCUA-VIN-L",
+     "size": "L",
+     "color": "Vinotinto",
+     "stock": 44
+    },
+    {
+     "id": "camisa-cuadros-vinotinto-xl",
+     "sku": "CAMCUA-VIN-XL",
+     "size": "XL",
+     "color": "Vinotinto",
+     "stock": 24
+    },
+    {
+     "id": "camisa-cuadros-marino-xs",
+     "sku": "CAMCUA-MAR-XS",
+     "size": "XS",
+     "color": "Azul marino",
+     "stock": 109
+    },
+    {
+     "id": "camisa-cuadros-marino-s",
+     "sku": "CAMCUA-MAR-S",
+     "size": "S",
+     "color": "Azul marino",
+     "stock": 47
+    },
+    {
+     "id": "camisa-cuadros-marino-m",
+     "sku": "CAMCUA-MAR-M",
+     "size": "M",
+     "color": "Azul marino",
+     "stock": 48
+    },
+    {
+     "id": "camisa-cuadros-marino-l",
+     "sku": "CAMCUA-MAR-L",
+     "size": "L",
+     "color": "Azul marino",
+     "stock": 101
+    },
+    {
+     "id": "camisa-cuadros-marino-xl",
+     "sku": "CAMCUA-MAR-XL",
+     "size": "XL",
+     "color": "Azul marino",
+     "stock": 85
+    }
+   ]
+  },
+  {
+   "id": "p-camisa-denim",
+   "slug": "camisa-denim",
+   "name": "Camisa denim",
+   "categoryId": "c-camisas",
+   "basePrice": 95000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Camisa denim color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Camisa denim confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-04T00:00:00.000Z",
+   "sold": 829,
+   "position": 9,
+   "variants": [
+    {
+     "id": "camisa-denim-denim-xs",
+     "sku": "CAMDEN-DEN-XS",
+     "size": "XS",
+     "color": "Azul denim",
+     "stock": 142
+    },
+    {
+     "id": "camisa-denim-denim-s",
+     "sku": "CAMDEN-DEN-S",
+     "size": "S",
+     "color": "Azul denim",
+     "stock": 125
+    },
+    {
+     "id": "camisa-denim-denim-m",
+     "sku": "CAMDEN-DEN-M",
+     "size": "M",
+     "color": "Azul denim",
+     "stock": 72
+    },
+    {
+     "id": "camisa-denim-denim-l",
+     "sku": "CAMDEN-DEN-L",
+     "size": "L",
+     "color": "Azul denim",
+     "stock": 17
+    },
+    {
+     "id": "camisa-denim-denim-xl",
+     "sku": "CAMDEN-DEN-XL",
+     "size": "XL",
+     "color": "Azul denim",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-guayabera",
+   "slug": "guayabera",
+   "name": "Guayabera clásica",
+   "categoryId": "c-camisas",
+   "basePrice": 85000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Guayabera clásica color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M150%2090%20106%20110%2058%20300l40%2012%2026-120v218h152V202l26%20120%2040-12-48-190-44-20-50%2040-50-40Z%22%2F%3E%3Cpath%20d%3D%22M200%20130v280M150%2090l50%2040%2050-40%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Guayabera clásica color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Guayabera clásica confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-01T00:00:00.000Z",
+   "sold": 476,
+   "position": 10,
+   "variants": [
+    {
+     "id": "guayabera-blanco-xs",
+     "sku": "GUA-BLA-XS",
+     "size": "XS",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-blanco-s",
+     "sku": "GUA-BLA-S",
+     "size": "S",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-blanco-m",
+     "sku": "GUA-BLA-M",
+     "size": "M",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-blanco-l",
+     "sku": "GUA-BLA-L",
+     "size": "L",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-blanco-xl",
+     "sku": "GUA-BLA-XL",
+     "size": "XL",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-beige-xs",
+     "sku": "GUA-BEI-XS",
+     "size": "XS",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-beige-s",
+     "sku": "GUA-BEI-S",
+     "size": "S",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-beige-m",
+     "sku": "GUA-BEI-M",
+     "size": "M",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-beige-l",
+     "sku": "GUA-BEI-L",
+     "size": "L",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "guayabera-beige-xl",
+     "sku": "GUA-BEI-XL",
+     "size": "XL",
+     "color": "Beige",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-jean-slim",
+   "slug": "jean-slim",
+   "name": "Jean slim",
+   "categoryId": "c-jeans",
+   "basePrice": 119000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "bestseller",
+    "volume-offer"
+   ],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean slim color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean slim color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jean slim confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-28T00:00:00.000Z",
+   "sold": 897,
+   "position": 11,
+   "variants": [
+    {
+     "id": "jean-slim-denim-28",
+     "sku": "JEASLI-DEN-28",
+     "size": "28",
+     "color": "Azul denim",
+     "stock": 16
+    },
+    {
+     "id": "jean-slim-denim-30",
+     "sku": "JEASLI-DEN-30",
+     "size": "30",
+     "color": "Azul denim",
+     "stock": 146
+    },
+    {
+     "id": "jean-slim-denim-32",
+     "sku": "JEASLI-DEN-32",
+     "size": "32",
+     "color": "Azul denim",
+     "stock": 0
+    },
+    {
+     "id": "jean-slim-denim-34",
+     "sku": "JEASLI-DEN-34",
+     "size": "34",
+     "color": "Azul denim",
+     "stock": 0
+    },
+    {
+     "id": "jean-slim-denim-36",
+     "sku": "JEASLI-DEN-36",
+     "size": "36",
+     "color": "Azul denim",
+     "stock": 101
+    },
+    {
+     "id": "jean-slim-negro-28",
+     "sku": "JEASLI-NEG-28",
+     "size": "28",
+     "color": "Negro",
+     "stock": 115
+    },
+    {
+     "id": "jean-slim-negro-30",
+     "sku": "JEASLI-NEG-30",
+     "size": "30",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "jean-slim-negro-32",
+     "sku": "JEASLI-NEG-32",
+     "size": "32",
+     "color": "Negro",
+     "stock": 53
+    },
+    {
+     "id": "jean-slim-negro-34",
+     "sku": "JEASLI-NEG-34",
+     "size": "34",
+     "color": "Negro",
+     "stock": 117
+    },
+    {
+     "id": "jean-slim-negro-36",
+     "sku": "JEASLI-NEG-36",
+     "size": "36",
+     "color": "Negro",
+     "stock": 84
+    }
+   ]
+  },
+  {
+   "id": "p-jean-recto",
+   "slug": "jean-recto",
+   "name": "Jean recto clásico",
+   "categoryId": "c-jeans",
+   "basePrice": 109000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "featured"
+   ],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean recto clásico color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jean recto clásico confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-21T00:00:00.000Z",
+   "sold": 318,
+   "position": 12,
+   "variants": [
+    {
+     "id": "jean-recto-denim-28",
+     "sku": "JEAREC-DEN-28",
+     "size": "28",
+     "color": "Azul denim",
+     "stock": 59
+    },
+    {
+     "id": "jean-recto-denim-30",
+     "sku": "JEAREC-DEN-30",
+     "size": "30",
+     "color": "Azul denim",
+     "stock": 0
+    },
+    {
+     "id": "jean-recto-denim-32",
+     "sku": "JEAREC-DEN-32",
+     "size": "32",
+     "color": "Azul denim",
+     "stock": 0
+    },
+    {
+     "id": "jean-recto-denim-34",
+     "sku": "JEAREC-DEN-34",
+     "size": "34",
+     "color": "Azul denim",
+     "stock": 0
+    },
+    {
+     "id": "jean-recto-denim-36",
+     "sku": "JEAREC-DEN-36",
+     "size": "36",
+     "color": "Azul denim",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-jean-mom",
+   "slug": "jean-mom",
+   "name": "Jean mom",
+   "categoryId": "c-jeans",
+   "basePrice": 125000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "new"
+   ],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    },
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean mom color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean mom color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jean mom confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-07-16T00:00:00.000Z",
+   "sold": 229,
+   "position": 13,
+   "variants": [
+    {
+     "id": "jean-mom-denim-28",
+     "sku": "JEAMOM-DEN-28",
+     "size": "28",
+     "color": "Azul denim",
+     "stock": 68
+    },
+    {
+     "id": "jean-mom-denim-30",
+     "sku": "JEAMOM-DEN-30",
+     "size": "30",
+     "color": "Azul denim",
+     "stock": 58
+    },
+    {
+     "id": "jean-mom-denim-32",
+     "sku": "JEAMOM-DEN-32",
+     "size": "32",
+     "color": "Azul denim",
+     "stock": 68
+    },
+    {
+     "id": "jean-mom-denim-34",
+     "sku": "JEAMOM-DEN-34",
+     "size": "34",
+     "color": "Azul denim",
+     "stock": 6
+    },
+    {
+     "id": "jean-mom-denim-36",
+     "sku": "JEAMOM-DEN-36",
+     "size": "36",
+     "color": "Azul denim",
+     "stock": 136
+    },
+    {
+     "id": "jean-mom-blanco-28",
+     "sku": "JEAMOM-BLA-28",
+     "size": "28",
+     "color": "Blanco",
+     "stock": 14
+    },
+    {
+     "id": "jean-mom-blanco-30",
+     "sku": "JEAMOM-BLA-30",
+     "size": "30",
+     "color": "Blanco",
+     "stock": 6
+    },
+    {
+     "id": "jean-mom-blanco-32",
+     "sku": "JEAMOM-BLA-32",
+     "size": "32",
+     "color": "Blanco",
+     "stock": 0
+    },
+    {
+     "id": "jean-mom-blanco-34",
+     "sku": "JEAMOM-BLA-34",
+     "size": "34",
+     "color": "Blanco",
+     "stock": 68
+    },
+    {
+     "id": "jean-mom-blanco-36",
+     "sku": "JEAMOM-BLA-36",
+     "size": "36",
+     "color": "Blanco",
+     "stock": 15
+    }
+   ]
+  },
+  {
+   "id": "p-jean-skinny",
+   "slug": "jean-skinny",
+   "name": "Jean skinny",
+   "categoryId": "c-jeans",
+   "basePrice": 99000,
+   "promoPrice": 84000,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean skinny color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean skinny color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jean skinny confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-21T00:00:00.000Z",
+   "sold": 319,
+   "position": 14,
+   "variants": [
+    {
+     "id": "jean-skinny-negro-28",
+     "sku": "JEASKI-NEG-28",
+     "size": "28",
+     "color": "Negro",
+     "stock": 65
+    },
+    {
+     "id": "jean-skinny-negro-30",
+     "sku": "JEASKI-NEG-30",
+     "size": "30",
+     "color": "Negro",
+     "stock": 71
+    },
+    {
+     "id": "jean-skinny-negro-32",
+     "sku": "JEASKI-NEG-32",
+     "size": "32",
+     "color": "Negro",
+     "stock": 104
+    },
+    {
+     "id": "jean-skinny-negro-34",
+     "sku": "JEASKI-NEG-34",
+     "size": "34",
+     "color": "Negro",
+     "stock": 50
+    },
+    {
+     "id": "jean-skinny-negro-36",
+     "sku": "JEASKI-NEG-36",
+     "size": "36",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "jean-skinny-denim-28",
+     "sku": "JEASKI-DEN-28",
+     "size": "28",
+     "color": "Azul denim",
+     "stock": 59
+    },
+    {
+     "id": "jean-skinny-denim-30",
+     "sku": "JEASKI-DEN-30",
+     "size": "30",
+     "color": "Azul denim",
+     "stock": 8
+    },
+    {
+     "id": "jean-skinny-denim-32",
+     "sku": "JEASKI-DEN-32",
+     "size": "32",
+     "color": "Azul denim",
+     "stock": 39
+    },
+    {
+     "id": "jean-skinny-denim-34",
+     "sku": "JEASKI-DEN-34",
+     "size": "34",
+     "color": "Azul denim",
+     "stock": 19
+    },
+    {
+     "id": "jean-skinny-denim-36",
+     "sku": "JEASKI-DEN-36",
+     "size": "36",
+     "color": "Azul denim",
+     "stock": 148
+    }
+   ]
+  },
+  {
+   "id": "p-jean-cargo",
+   "slug": "jean-cargo",
+   "name": "Jean cargo",
+   "categoryId": "c-jeans",
+   "basePrice": 129000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean cargo color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jean cargo color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jean cargo confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-07-09T00:00:00.000Z",
+   "sold": 286,
+   "position": 15,
+   "variants": [
+    {
+     "id": "jean-cargo-denim-28",
+     "sku": "JEACAR-DEN-28",
+     "size": "28",
+     "color": "Azul denim",
+     "stock": 26
+    },
+    {
+     "id": "jean-cargo-denim-30",
+     "sku": "JEACAR-DEN-30",
+     "size": "30",
+     "color": "Azul denim",
+     "stock": 63
+    },
+    {
+     "id": "jean-cargo-denim-32",
+     "sku": "JEACAR-DEN-32",
+     "size": "32",
+     "color": "Azul denim",
+     "stock": 7
+    },
+    {
+     "id": "jean-cargo-denim-34",
+     "sku": "JEACAR-DEN-34",
+     "size": "34",
+     "color": "Azul denim",
+     "stock": 82
+    },
+    {
+     "id": "jean-cargo-denim-36",
+     "sku": "JEACAR-DEN-36",
+     "size": "36",
+     "color": "Azul denim",
+     "stock": 145
+    },
+    {
+     "id": "jean-cargo-oliva-28",
+     "sku": "JEACAR-OLI-28",
+     "size": "28",
+     "color": "Verde oliva",
+     "stock": 5
+    },
+    {
+     "id": "jean-cargo-oliva-30",
+     "sku": "JEACAR-OLI-30",
+     "size": "30",
+     "color": "Verde oliva",
+     "stock": 67
+    },
+    {
+     "id": "jean-cargo-oliva-32",
+     "sku": "JEACAR-OLI-32",
+     "size": "32",
+     "color": "Verde oliva",
+     "stock": 131
+    },
+    {
+     "id": "jean-cargo-oliva-34",
+     "sku": "JEACAR-OLI-34",
+     "size": "34",
+     "color": "Verde oliva",
+     "stock": 67
+    },
+    {
+     "id": "jean-cargo-oliva-36",
+     "sku": "JEACAR-OLI-36",
+     "size": "36",
+     "color": "Verde oliva",
+     "stock": 29
+    }
+   ]
+  },
+  {
+   "id": "p-pantalon-chino",
+   "slug": "pantalon-chino",
+   "name": "Pantalón chino",
+   "categoryId": "c-pantalones",
+   "basePrice": 89000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "bestseller"
+   ],
+   "colors": [
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón chino color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón chino color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón chino color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Pantalón chino confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-12T00:00:00.000Z",
+   "sold": 571,
+   "position": 16,
+   "variants": [
+    {
+     "id": "pantalon-chino-beige-28",
+     "sku": "PANCHI-BEI-28",
+     "size": "28",
+     "color": "Beige",
+     "stock": 33
+    },
+    {
+     "id": "pantalon-chino-beige-30",
+     "sku": "PANCHI-BEI-30",
+     "size": "30",
+     "color": "Beige",
+     "stock": 29
+    },
+    {
+     "id": "pantalon-chino-beige-32",
+     "sku": "PANCHI-BEI-32",
+     "size": "32",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "pantalon-chino-beige-34",
+     "sku": "PANCHI-BEI-34",
+     "size": "34",
+     "color": "Beige",
+     "stock": 47
+    },
+    {
+     "id": "pantalon-chino-beige-36",
+     "sku": "PANCHI-BEI-36",
+     "size": "36",
+     "color": "Beige",
+     "stock": 43
+    },
+    {
+     "id": "pantalon-chino-marino-28",
+     "sku": "PANCHI-MAR-28",
+     "size": "28",
+     "color": "Azul marino",
+     "stock": 124
+    },
+    {
+     "id": "pantalon-chino-marino-30",
+     "sku": "PANCHI-MAR-30",
+     "size": "30",
+     "color": "Azul marino",
+     "stock": 40
+    },
+    {
+     "id": "pantalon-chino-marino-32",
+     "sku": "PANCHI-MAR-32",
+     "size": "32",
+     "color": "Azul marino",
+     "stock": 99
+    },
+    {
+     "id": "pantalon-chino-marino-34",
+     "sku": "PANCHI-MAR-34",
+     "size": "34",
+     "color": "Azul marino",
+     "stock": 49
+    },
+    {
+     "id": "pantalon-chino-marino-36",
+     "sku": "PANCHI-MAR-36",
+     "size": "36",
+     "color": "Azul marino",
+     "stock": 108
+    },
+    {
+     "id": "pantalon-chino-oliva-28",
+     "sku": "PANCHI-OLI-28",
+     "size": "28",
+     "color": "Verde oliva",
+     "stock": 88
+    },
+    {
+     "id": "pantalon-chino-oliva-30",
+     "sku": "PANCHI-OLI-30",
+     "size": "30",
+     "color": "Verde oliva",
+     "stock": 89
+    },
+    {
+     "id": "pantalon-chino-oliva-32",
+     "sku": "PANCHI-OLI-32",
+     "size": "32",
+     "color": "Verde oliva",
+     "stock": 14
+    },
+    {
+     "id": "pantalon-chino-oliva-34",
+     "sku": "PANCHI-OLI-34",
+     "size": "34",
+     "color": "Verde oliva",
+     "stock": 0
+    },
+    {
+     "id": "pantalon-chino-oliva-36",
+     "sku": "PANCHI-OLI-36",
+     "size": "36",
+     "color": "Verde oliva",
+     "stock": 53
+    }
+   ]
+  },
+  {
+   "id": "p-jogger-algodon",
+   "slug": "jogger-algodon",
+   "name": "Jogger de algodón",
+   "categoryId": "c-pantalones",
+   "basePrice": 69000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "volume-offer"
+   ],
+   "colors": [
+    {
+     "name": "Gris",
+     "hex": "#8a8d91"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%238a8d91%22%20stroke%3D%22rgb(104%20106%20109)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jogger de algodón color gris",
+     "color": "Gris",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Jogger de algodón color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Jogger de algodón confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-18T00:00:00.000Z",
+   "sold": 438,
+   "position": 17,
+   "variants": [
+    {
+     "id": "jogger-algodon-gris-xs",
+     "sku": "JOGALG-GRI-XS",
+     "size": "XS",
+     "color": "Gris",
+     "stock": 95
+    },
+    {
+     "id": "jogger-algodon-gris-s",
+     "sku": "JOGALG-GRI-S",
+     "size": "S",
+     "color": "Gris",
+     "stock": 34
+    },
+    {
+     "id": "jogger-algodon-gris-m",
+     "sku": "JOGALG-GRI-M",
+     "size": "M",
+     "color": "Gris",
+     "stock": 84
+    },
+    {
+     "id": "jogger-algodon-gris-l",
+     "sku": "JOGALG-GRI-L",
+     "size": "L",
+     "color": "Gris",
+     "stock": 36
+    },
+    {
+     "id": "jogger-algodon-gris-xl",
+     "sku": "JOGALG-GRI-XL",
+     "size": "XL",
+     "color": "Gris",
+     "stock": 0
+    },
+    {
+     "id": "jogger-algodon-negro-xs",
+     "sku": "JOGALG-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 63
+    },
+    {
+     "id": "jogger-algodon-negro-s",
+     "sku": "JOGALG-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 35
+    },
+    {
+     "id": "jogger-algodon-negro-m",
+     "sku": "JOGALG-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 99
+    },
+    {
+     "id": "jogger-algodon-negro-l",
+     "sku": "JOGALG-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "jogger-algodon-negro-xl",
+     "sku": "JOGALG-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 108
+    }
+   ]
+  },
+  {
+   "id": "p-pantalon-dril",
+   "slug": "pantalon-dril",
+   "name": "Pantalón de dril",
+   "categoryId": "c-pantalones",
+   "basePrice": 79000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    }
+   ],
+   "sizes": [
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón de dril color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón de dril color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Pantalón de dril confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-02T00:00:00.000Z",
+   "sold": 642,
+   "position": 18,
+   "variants": [
+    {
+     "id": "pantalon-dril-beige-28",
+     "sku": "PANDRI-BEI-28",
+     "size": "28",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "pantalon-dril-beige-30",
+     "sku": "PANDRI-BEI-30",
+     "size": "30",
+     "color": "Beige",
+     "stock": 72
+    },
+    {
+     "id": "pantalon-dril-beige-32",
+     "sku": "PANDRI-BEI-32",
+     "size": "32",
+     "color": "Beige",
+     "stock": 152
+    },
+    {
+     "id": "pantalon-dril-beige-34",
+     "sku": "PANDRI-BEI-34",
+     "size": "34",
+     "color": "Beige",
+     "stock": 103
+    },
+    {
+     "id": "pantalon-dril-beige-36",
+     "sku": "PANDRI-BEI-36",
+     "size": "36",
+     "color": "Beige",
+     "stock": 84
+    },
+    {
+     "id": "pantalon-dril-negro-28",
+     "sku": "PANDRI-NEG-28",
+     "size": "28",
+     "color": "Negro",
+     "stock": 22
+    },
+    {
+     "id": "pantalon-dril-negro-30",
+     "sku": "PANDRI-NEG-30",
+     "size": "30",
+     "color": "Negro",
+     "stock": 91
+    },
+    {
+     "id": "pantalon-dril-negro-32",
+     "sku": "PANDRI-NEG-32",
+     "size": "32",
+     "color": "Negro",
+     "stock": 91
+    },
+    {
+     "id": "pantalon-dril-negro-34",
+     "sku": "PANDRI-NEG-34",
+     "size": "34",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "pantalon-dril-negro-36",
+     "sku": "PANDRI-NEG-36",
+     "size": "36",
+     "color": "Negro",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-pantalon-palazzo",
+   "slug": "pantalon-palazzo",
+   "name": "Pantalón palazzo",
+   "categoryId": "c-pantalones",
+   "basePrice": 95000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "new"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Vinotinto",
+     "hex": "#6d1f2c"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón palazzo color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%236d1f2c%22%20stroke%3D%22rgb(82%2023%2033)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M128%2080h144l18%20340h-74l-16-220-16%20220h-74l18-340Z%22%2F%3E%3Cpath%20d%3D%22M128%20110h144%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Pantalón palazzo color vinotinto",
+     "color": "Vinotinto",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Pantalón palazzo confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-23T00:00:00.000Z",
+   "sold": 91,
+   "position": 19,
+   "variants": [
+    {
+     "id": "pantalon-palazzo-negro-xs",
+     "sku": "PANPAL-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 62
+    },
+    {
+     "id": "pantalon-palazzo-negro-s",
+     "sku": "PANPAL-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 48
+    },
+    {
+     "id": "pantalon-palazzo-negro-m",
+     "sku": "PANPAL-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 33
+    },
+    {
+     "id": "pantalon-palazzo-negro-l",
+     "sku": "PANPAL-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 133
+    },
+    {
+     "id": "pantalon-palazzo-negro-xl",
+     "sku": "PANPAL-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 149
+    },
+    {
+     "id": "pantalon-palazzo-vinotinto-xs",
+     "sku": "PANPAL-VIN-XS",
+     "size": "XS",
+     "color": "Vinotinto",
+     "stock": 29
+    },
+    {
+     "id": "pantalon-palazzo-vinotinto-s",
+     "sku": "PANPAL-VIN-S",
+     "size": "S",
+     "color": "Vinotinto",
+     "stock": 88
+    },
+    {
+     "id": "pantalon-palazzo-vinotinto-m",
+     "sku": "PANPAL-VIN-M",
+     "size": "M",
+     "color": "Vinotinto",
+     "stock": 36
+    },
+    {
+     "id": "pantalon-palazzo-vinotinto-l",
+     "sku": "PANPAL-VIN-L",
+     "size": "L",
+     "color": "Vinotinto",
+     "stock": 51
+    },
+    {
+     "id": "pantalon-palazzo-vinotinto-xl",
+     "sku": "PANPAL-VIN-XL",
+     "size": "XL",
+     "color": "Vinotinto",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-chaqueta-jean",
+   "slug": "chaqueta-jean",
+   "name": "Chaqueta de jean",
+   "categoryId": "c-chaquetas",
+   "basePrice": 159000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "featured"
+   ],
+   "colors": [
+    {
+     "name": "Azul denim",
+     "hex": "#5d7fa8"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235d7fa8%22%20stroke%3D%22rgb(70%2095%20126)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta de jean color azul denim",
+     "color": "Azul denim",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Chaqueta de jean confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-09T00:00:00.000Z",
+   "sold": 306,
+   "position": 20,
+   "variants": [
+    {
+     "id": "chaqueta-jean-denim-xs",
+     "sku": "CHAJEA-DEN-XS",
+     "size": "XS",
+     "color": "Azul denim",
+     "stock": 72
+    },
+    {
+     "id": "chaqueta-jean-denim-s",
+     "sku": "CHAJEA-DEN-S",
+     "size": "S",
+     "color": "Azul denim",
+     "stock": 62
+    },
+    {
+     "id": "chaqueta-jean-denim-m",
+     "sku": "CHAJEA-DEN-M",
+     "size": "M",
+     "color": "Azul denim",
+     "stock": 138
+    },
+    {
+     "id": "chaqueta-jean-denim-l",
+     "sku": "CHAJEA-DEN-L",
+     "size": "L",
+     "color": "Azul denim",
+     "stock": 56
+    },
+    {
+     "id": "chaqueta-jean-denim-xl",
+     "sku": "CHAJEA-DEN-XL",
+     "size": "XL",
+     "color": "Azul denim",
+     "stock": 121
+    }
+   ]
+  },
+  {
+   "id": "p-rompevientos",
+   "slug": "rompevientos",
+   "name": "Chaqueta rompevientos",
+   "categoryId": "c-chaquetas",
+   "basePrice": 139000,
+   "promoPrice": 119000,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Mostaza",
+     "hex": "#c99a2e"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta rompevientos color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23c99a2e%22%20stroke%3D%22rgb(151%20116%2035)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta rompevientos color mostaza",
+     "color": "Mostaza",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta rompevientos color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Chaqueta rompevientos confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-26T00:00:00.000Z",
+   "sold": 566,
+   "position": 21,
+   "variants": [
+    {
+     "id": "rompevientos-negro-xs",
+     "sku": "ROM-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 40
+    },
+    {
+     "id": "rompevientos-negro-s",
+     "sku": "ROM-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 35
+    },
+    {
+     "id": "rompevientos-negro-m",
+     "sku": "ROM-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 139
+    },
+    {
+     "id": "rompevientos-negro-l",
+     "sku": "ROM-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 105
+    },
+    {
+     "id": "rompevientos-negro-xl",
+     "sku": "ROM-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 7
+    },
+    {
+     "id": "rompevientos-mostaza-xs",
+     "sku": "ROM-MOS-XS",
+     "size": "XS",
+     "color": "Mostaza",
+     "stock": 0
+    },
+    {
+     "id": "rompevientos-mostaza-s",
+     "sku": "ROM-MOS-S",
+     "size": "S",
+     "color": "Mostaza",
+     "stock": 0
+    },
+    {
+     "id": "rompevientos-mostaza-m",
+     "sku": "ROM-MOS-M",
+     "size": "M",
+     "color": "Mostaza",
+     "stock": 79
+    },
+    {
+     "id": "rompevientos-mostaza-l",
+     "sku": "ROM-MOS-L",
+     "size": "L",
+     "color": "Mostaza",
+     "stock": 0
+    },
+    {
+     "id": "rompevientos-mostaza-xl",
+     "sku": "ROM-MOS-XL",
+     "size": "XL",
+     "color": "Mostaza",
+     "stock": 38
+    },
+    {
+     "id": "rompevientos-marino-xs",
+     "sku": "ROM-MAR-XS",
+     "size": "XS",
+     "color": "Azul marino",
+     "stock": 122
+    },
+    {
+     "id": "rompevientos-marino-s",
+     "sku": "ROM-MAR-S",
+     "size": "S",
+     "color": "Azul marino",
+     "stock": 121
+    },
+    {
+     "id": "rompevientos-marino-m",
+     "sku": "ROM-MAR-M",
+     "size": "M",
+     "color": "Azul marino",
+     "stock": 0
+    },
+    {
+     "id": "rompevientos-marino-l",
+     "sku": "ROM-MAR-L",
+     "size": "L",
+     "color": "Azul marino",
+     "stock": 68
+    },
+    {
+     "id": "rompevientos-marino-xl",
+     "sku": "ROM-MAR-XL",
+     "size": "XL",
+     "color": "Azul marino",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-chaqueta-bomber",
+   "slug": "chaqueta-bomber",
+   "name": "Chaqueta bomber",
+   "categoryId": "c-chaquetas",
+   "basePrice": 189000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "bestseller"
+   ],
+   "colors": [
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta bomber color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaqueta bomber color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Chaqueta bomber confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-25T00:00:00.000Z",
+   "sold": 407,
+   "position": 22,
+   "variants": [
+    {
+     "id": "chaqueta-bomber-oliva-xs",
+     "sku": "CHABOM-OLI-XS",
+     "size": "XS",
+     "color": "Verde oliva",
+     "stock": 0
+    },
+    {
+     "id": "chaqueta-bomber-oliva-s",
+     "sku": "CHABOM-OLI-S",
+     "size": "S",
+     "color": "Verde oliva",
+     "stock": 0
+    },
+    {
+     "id": "chaqueta-bomber-oliva-m",
+     "sku": "CHABOM-OLI-M",
+     "size": "M",
+     "color": "Verde oliva",
+     "stock": 50
+    },
+    {
+     "id": "chaqueta-bomber-oliva-l",
+     "sku": "CHABOM-OLI-L",
+     "size": "L",
+     "color": "Verde oliva",
+     "stock": 37
+    },
+    {
+     "id": "chaqueta-bomber-oliva-xl",
+     "sku": "CHABOM-OLI-XL",
+     "size": "XL",
+     "color": "Verde oliva",
+     "stock": 148
+    },
+    {
+     "id": "chaqueta-bomber-negro-xs",
+     "sku": "CHABOM-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 6
+    },
+    {
+     "id": "chaqueta-bomber-negro-s",
+     "sku": "CHABOM-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 36
+    },
+    {
+     "id": "chaqueta-bomber-negro-m",
+     "sku": "CHABOM-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 0
+    },
+    {
+     "id": "chaqueta-bomber-negro-l",
+     "sku": "CHABOM-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 130
+    },
+    {
+     "id": "chaqueta-bomber-negro-xl",
+     "sku": "CHABOM-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 116
+    }
+   ]
+  },
+  {
+   "id": "p-chaleco-acolchado",
+   "slug": "chaleco-acolchado",
+   "name": "Chaleco acolchado",
+   "categoryId": "c-chaquetas",
+   "basePrice": 129000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    }
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaleco acolchado color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M148%2088%20104%20108%2066%20330l40%208%2022-140v232h144V206l22%20132%2040-8-38-222-44-20-26%2030h-52l-26-30Z%22%2F%3E%3Cpath%20d%3D%22M200%20120v310%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Chaleco acolchado color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Chaleco acolchado confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-24T00:00:00.000Z",
+   "sold": 702,
+   "position": 23,
+   "variants": [
+    {
+     "id": "chaleco-acolchado-negro-xs",
+     "sku": "CHAACO-NEG-XS",
+     "size": "XS",
+     "color": "Negro",
+     "stock": 149
+    },
+    {
+     "id": "chaleco-acolchado-negro-s",
+     "sku": "CHAACO-NEG-S",
+     "size": "S",
+     "color": "Negro",
+     "stock": 18
+    },
+    {
+     "id": "chaleco-acolchado-negro-m",
+     "sku": "CHAACO-NEG-M",
+     "size": "M",
+     "color": "Negro",
+     "stock": 22
+    },
+    {
+     "id": "chaleco-acolchado-negro-l",
+     "sku": "CHAACO-NEG-L",
+     "size": "L",
+     "color": "Negro",
+     "stock": 73
+    },
+    {
+     "id": "chaleco-acolchado-negro-xl",
+     "sku": "CHAACO-NEG-XL",
+     "size": "XL",
+     "color": "Negro",
+     "stock": 122
+    },
+    {
+     "id": "chaleco-acolchado-beige-xs",
+     "sku": "CHAACO-BEI-XS",
+     "size": "XS",
+     "color": "Beige",
+     "stock": 54
+    },
+    {
+     "id": "chaleco-acolchado-beige-s",
+     "sku": "CHAACO-BEI-S",
+     "size": "S",
+     "color": "Beige",
+     "stock": 0
+    },
+    {
+     "id": "chaleco-acolchado-beige-m",
+     "sku": "CHAACO-BEI-M",
+     "size": "M",
+     "color": "Beige",
+     "stock": 105
+    },
+    {
+     "id": "chaleco-acolchado-beige-l",
+     "sku": "CHAACO-BEI-L",
+     "size": "L",
+     "color": "Beige",
+     "stock": 145
+    },
+    {
+     "id": "chaleco-acolchado-beige-xl",
+     "sku": "CHAACO-BEI-XL",
+     "size": "XL",
+     "color": "Beige",
+     "stock": 81
+    }
+   ]
+  },
+  {
+   "id": "p-gorra-beisbol",
+   "slug": "gorra-beisbol",
+   "name": "Gorra béisbol",
+   "categoryId": "c-gorras",
+   "basePrice": 35000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "bestseller",
+    "volume-offer"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Azul marino",
+     "hex": "#1f3a5f"
+    },
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra béisbol color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra béisbol color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231f3a5f%22%20stroke%3D%22rgb(23%2044%2071)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra béisbol color azul marino",
+     "color": "Azul marino",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra béisbol color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Gorra béisbol confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-22T00:00:00.000Z",
+   "sold": 225,
+   "position": 24,
+   "variants": [
+    {
+     "id": "gorra-beisbol-negro-única",
+     "sku": "GORBEI-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 129
+    },
+    {
+     "id": "gorra-beisbol-blanco-única",
+     "sku": "GORBEI-BLA-Única",
+     "size": "Única",
+     "color": "Blanco",
+     "stock": 116
+    },
+    {
+     "id": "gorra-beisbol-marino-única",
+     "sku": "GORBEI-MAR-Única",
+     "size": "Única",
+     "color": "Azul marino",
+     "stock": 20
+    },
+    {
+     "id": "gorra-beisbol-beige-única",
+     "sku": "GORBEI-BEI-Única",
+     "size": "Única",
+     "color": "Beige",
+     "stock": 72
+    }
+   ]
+  },
+  {
+   "id": "p-gorra-trucker",
+   "slug": "gorra-trucker",
+   "name": "Gorra trucker",
+   "categoryId": "c-gorras",
+   "basePrice": 39000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra trucker color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra trucker color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Gorra trucker confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-06-25T00:00:00.000Z",
+   "sold": 485,
+   "position": 25,
+   "variants": [
+    {
+     "id": "gorra-trucker-negro-única",
+     "sku": "GORTRU-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 116
+    },
+    {
+     "id": "gorra-trucker-oliva-única",
+     "sku": "GORTRU-OLI-Única",
+     "size": "Única",
+     "color": "Verde oliva",
+     "stock": 5
+    }
+   ]
+  },
+  {
+   "id": "p-gorra-snapback",
+   "slug": "gorra-snapback",
+   "name": "Gorra snapback",
+   "categoryId": "c-gorras",
+   "basePrice": 45000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [
+    "new"
+   ],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Vinotinto",
+     "hex": "#6d1f2c"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra snapback color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%236d1f2c%22%20stroke%3D%22rgb(82%2023%2033)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Gorra snapback color vinotinto",
+     "color": "Vinotinto",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Gorra snapback confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-09-11T00:00:00.000Z",
+   "sold": 748,
+   "position": 26,
+   "variants": [
+    {
+     "id": "gorra-snapback-negro-única",
+     "sku": "GORSNA-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 8
+    },
+    {
+     "id": "gorra-snapback-vinotinto-única",
+     "sku": "GORSNA-VIN-Única",
+     "size": "Única",
+     "color": "Vinotinto",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-bucket-hat",
+   "slug": "bucket-hat",
+   "name": "Bucket hat",
+   "categoryId": "c-gorras",
+   "basePrice": 42000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 6,
+     "label": "Media docena",
+     "discountPercent": 11
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 23
+    },
+    {
+     "minQty": 24,
+     "label": "24 unidades",
+     "discountPercent": 31
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Mostaza",
+     "hex": "#c99a2e"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Bucket hat color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Bucket hat color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23c99a2e%22%20stroke%3D%22rgb(151%20116%2035)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M108%20300c0-80%2040-134%2092-134s92%2054%2092%20134H108Z%22%2F%3E%3Cpath%20d%3D%22M108%20300c-30%202-52%2014-60%2030%2070%206%20160%200%20244-30H108Z%22%2F%3E%3Ccircle%20cx%3D%22200%22%20cy%3D%22168%22%20r%3D%228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Bucket hat color mostaza",
+     "color": "Mostaza",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Bucket hat confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-11T00:00:00.000Z",
+   "sold": 73,
+   "position": 27,
+   "variants": [
+    {
+     "id": "bucket-hat-beige-única",
+     "sku": "BUCHAT-BEI-Única",
+     "size": "Única",
+     "color": "Beige",
+     "stock": 110
+    },
+    {
+     "id": "bucket-hat-negro-única",
+     "sku": "BUCHAT-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 117
+    },
+    {
+     "id": "bucket-hat-mostaza-única",
+     "sku": "BUCHAT-MOS-Única",
+     "size": "Única",
+     "color": "Mostaza",
+     "stock": 47
+    }
+   ]
+  },
+  {
+   "id": "p-tote-bag",
+   "slug": "tote-bag",
+   "name": "Tote bag de lona",
+   "categoryId": "c-accesorios",
+   "basePrice": 29000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 15
+    }
+   ],
+   "tags": [
+    "featured"
+   ],
+   "colors": [
+    {
+     "name": "Beige",
+     "hex": "#d9c7a7"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23d9c7a7%22%20stroke%3D%22rgb(163%20149%20125)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Tote bag de lona color beige",
+     "color": "Beige",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Tote bag de lona color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Tote bag de lona confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-16T00:00:00.000Z",
+   "sold": 311,
+   "position": 28,
+   "variants": [
+    {
+     "id": "tote-bag-beige-única",
+     "sku": "TOTBAG-BEI-Única",
+     "size": "Única",
+     "color": "Beige",
+     "stock": 27
+    },
+    {
+     "id": "tote-bag-negro-única",
+     "sku": "TOTBAG-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 42
+    }
+   ]
+  },
+  {
+   "id": "p-medias-pack",
+   "slug": "medias-pack",
+   "name": "Medias pack x3",
+   "categoryId": "c-accesorios",
+   "basePrice": 19000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 15
+    }
+   ],
+   "tags": [
+    "bestseller"
+   ],
+   "colors": [
+    {
+     "name": "Blanco",
+     "hex": "#f5f5f2"
+    },
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Gris",
+     "hex": "#8a8d91"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%23f5f5f2%22%20stroke%3D%22rgb(184%20184%20182)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Medias pack x3 color blanco",
+     "color": "Blanco",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Medias pack x3 color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%238a8d91%22%20stroke%3D%22rgb(104%20106%20109)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Medias pack x3 color gris",
+     "color": "Gris",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Medias pack x3 confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-10T00:00:00.000Z",
+   "sold": 782,
+   "position": 29,
+   "variants": [
+    {
+     "id": "medias-pack-blanco-única",
+     "sku": "MEDPAC-BLA-Única",
+     "size": "Única",
+     "color": "Blanco",
+     "stock": 135
+    },
+    {
+     "id": "medias-pack-negro-única",
+     "sku": "MEDPAC-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 32
+    },
+    {
+     "id": "medias-pack-gris-única",
+     "sku": "MEDPAC-GRI-Única",
+     "size": "Única",
+     "color": "Gris",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "p-rinonera-urbana",
+   "slug": "rinonera-urbana",
+   "name": "Riñonera urbana",
+   "categoryId": "c-accesorios",
+   "basePrice": 59000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 15
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Verde oliva",
+     "hex": "#5b6b3a"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Riñonera urbana color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%235b6b3a%22%20stroke%3D%22rgb(68%2080%2044)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Riñonera urbana color verde oliva",
+     "color": "Verde oliva",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Riñonera urbana confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-08-12T00:00:00.000Z",
+   "sold": 311,
+   "position": 30,
+   "variants": [
+    {
+     "id": "rinonera-urbana-negro-única",
+     "sku": "RINURB-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 130
+    },
+    {
+     "id": "rinonera-urbana-oliva-única",
+     "sku": "RINURB-OLI-Única",
+     "size": "Única",
+     "color": "Verde oliva",
+     "stock": 12
+    }
+   ]
+  },
+  {
+   "id": "p-correa-cuero",
+   "slug": "correa-cuero",
+   "name": "Correa de cuero",
+   "categoryId": "c-accesorios",
+   "basePrice": 49000,
+   "promoPrice": null,
+   "tierDefs": [
+    {
+     "minQty": 1,
+     "label": "Unidad",
+     "discountPercent": 0
+    },
+    {
+     "minQty": 12,
+     "label": "Docena",
+     "discountPercent": 15
+    }
+   ],
+   "tags": [],
+   "colors": [
+    {
+     "name": "Negro",
+     "hex": "#1a1a1a"
+    },
+    {
+     "name": "Vinotinto",
+     "hex": "#6d1f2c"
+    }
+   ],
+   "sizes": [
+    "Única"
+   ],
+   "images": [
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%231a1a1a%22%20stroke%3D%22rgb(20%2020%2020)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Correa de cuero color negro",
+     "color": "Negro",
+     "width": 400,
+     "height": 500
+    },
+    {
+     "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23f1f0ec%22%2F%3E%3Cg%20fill%3D%22%236d1f2c%22%20stroke%3D%22rgb(82%2023%2033)%22%20stroke-width%3D%224%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M110%20190h180l14%20230H96l14-230Z%22%2F%3E%3Cpath%20d%3D%22M160%20190v-30a40%2040%200%200%201%2080%200v30%22%20fill%3D%22none%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+     "alt": "Correa de cuero color vinotinto",
+     "color": "Vinotinto",
+     "width": 400,
+     "height": 500
+    }
+   ],
+   "description": "Correa de cuero confeccionada en Colombia. Ideal para venta al detal o para surtir tu tienda con precios por volumen.",
+   "createdAt": "2026-07-26T00:00:00.000Z",
+   "sold": 416,
+   "position": 31,
+   "variants": [
+    {
+     "id": "correa-cuero-negro-única",
+     "sku": "CORCUE-NEG-Única",
+     "size": "Única",
+     "color": "Negro",
+     "stock": 124
+    },
+    {
+     "id": "correa-cuero-vinotinto-única",
+     "sku": "CORCUE-VIN-Única",
+     "size": "Única",
+     "color": "Vinotinto",
+     "stock": 134
+    }
+   ]
+  }
+ ]
+}

@@ -19,6 +19,8 @@ class User(Base):
     # deferred: no se lee de la base salvo que se pida (como `select: false`).
     password_hash: Mapped[str] = mapped_column(String(255), deferred=True)
     name: Mapped[str] = mapped_column(String(30))
+    # BUYER | WHOLESALE | ADMIN. Define el precio que ve (escalas solo mayorista).
+    role: Mapped[str] = mapped_column(String(20), default="BUYER", server_default="BUYER")
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
     inspirations: Mapped[list["Inspiration"]] = relationship(

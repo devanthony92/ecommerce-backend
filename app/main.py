@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import get_settings
 from app.errors import register_error_handlers
 from app.logging_config import request_logger, setup_logging
-from app.routers import auth, inspirations, users
+from app.routers import auth, catalog, inspirations, users
 
 
 def create_app() -> FastAPI:
@@ -57,6 +57,7 @@ def create_app() -> FastAPI:
     app.include_router(auth.router)
     app.include_router(users.router)
     app.include_router(inspirations.router)
+    app.include_router(catalog.router)
 
     @app.get("/health", tags=["health"])
     def health() -> dict[str, str]:
