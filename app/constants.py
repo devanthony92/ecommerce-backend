@@ -78,3 +78,39 @@ PAYMENT_METHODS = {
     "MERCADO_PAGO": {"label": "Mercado Pago", "status": "PENDING_PAYMENT"},
     "CASH_ON_DELIVERY": {"label": "Pago contra entrega", "status": "PROCESSING"},
 }
+
+NIT_RE = re.compile(r"^\d{6,10}(-\d)?$")
+BUSINESS_TYPES = ("PHYSICAL_STORE", "ONLINE_STORE", "CATALOG", "DISTRIBUTOR", "OTHER")
+MONTHLY_VOLUMES = ("UNDER_1M", "1M_5M", "5M_10M", "OVER_10M")
+REVIEW_STATUSES = ("UNDER_REVIEW", "APPROVED", "REJECTED", "SUSPENDED")
+
+# Promociones vigentes. En el futuro se administrarán desde el panel.
+PROMOTIONS = (
+    {
+        "id": "promo-season",
+        "type": "SEASON",
+        "title": "Temporada: hasta 20% menos",
+        "description": "Camisetas, camisas, jeans y chaquetas seleccionadas.",
+        "link": "/ofertas",
+        "startsAt": "2026-10-01T00:00:00Z",
+        "endsAt": "2026-10-31T23:59:59Z",
+    },
+    {
+        "id": "promo-volume",
+        "type": "VOLUME",
+        "title": "Precios por volumen para mayoristas",
+        "description": "Desde media docena por producto, sumando tallas y colores.",
+        "link": "/mayoristas",
+        "startsAt": "2026-01-01T00:00:00Z",
+        "endsAt": "2026-12-31T23:59:59Z",
+    },
+    {
+        "id": "promo-shipping",
+        "type": "SHIPPING",
+        "title": "Envío gratis desde $120.000",
+        "description": "En envío estándar a todo el país.",
+        "link": "/carrito",
+        "startsAt": "2026-01-01T00:00:00Z",
+        "endsAt": "2026-12-31T23:59:59Z",
+    },
+)

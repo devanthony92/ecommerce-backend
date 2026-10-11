@@ -6,7 +6,19 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import get_settings
 from app.errors import register_error_handlers
 from app.logging_config import request_logger, setup_logging
-from app.routers import addresses, auth, cart, catalog, inspirations, orders, payments, users
+from app.routers import (
+    addresses,
+    auth,
+    cart,
+    catalog,
+    inspirations,
+    lists,
+    orders,
+    payments,
+    promotions,
+    users,
+    wholesale,
+)
 
 
 def create_app() -> FastAPI:
@@ -62,6 +74,11 @@ def create_app() -> FastAPI:
     app.include_router(cart.router)
     app.include_router(orders.router)
     app.include_router(payments.router)
+    app.include_router(lists.router)
+    app.include_router(wholesale.router)
+    app.include_router(promotions.router)
+    if not settings.is_production:
+        app.include_router(wholesale.dev_router)
 
     @app.get("/health", tags=["health"])
     def health() -> dict[str, str]:

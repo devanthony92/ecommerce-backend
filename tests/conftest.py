@@ -21,7 +21,10 @@ PASSWORD = "Trama1234"
 
 
 # Tablas con datos de cada test (el catálogo se carga una vez por sesión).
-USER_TABLES = "order_items, orders, cart_items, password_resets, addresses, inspirations, users"
+USER_TABLES = (
+    "shopping_list_items, shopping_lists, favorites, wholesale_requests, order_items, orders, "
+    "cart_items, password_resets, addresses, inspirations, users"
+)
 
 
 @pytest.fixture(scope="session", autouse=True)
