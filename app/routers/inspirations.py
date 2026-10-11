@@ -30,7 +30,7 @@ def list_inspirations(user: CurrentUser, db: DbSession) -> Sequence[Inspiration]
 def create_inspiration(data: InspirationIn, user: CurrentUser, db: DbSession) -> Inspiration:
     exists = db.scalar(
         select(Inspiration.id).where(
-            Inspiration.owner_id == user.id, Inspiration.pexels_id == data.pexels_id
+            Inspiration.owner_id == user.id, Inspiration.photo_id == data.photo_id
         )
     )
     if exists is not None:

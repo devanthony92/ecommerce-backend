@@ -1,6 +1,6 @@
 # Trama — API
 
-Backend de Trama, tienda de ropa con compra individual y compra por volumen para mayoristas: catálogo con precios calculados en el servidor, carrito, checkout con Mercado Pago, pedidos, cuentas, listas de compra, programa mayorista e inspiraciones guardadas (fotos de Pexels).
+Backend de Trama, tienda de ropa con compra individual y compra por volumen para mayoristas: catálogo con precios calculados en el servidor, carrito, checkout con Mercado Pago, pedidos, cuentas, listas de compra, programa mayorista e inspiraciones guardadas (fotos de Unsplash).
 
 FastAPI · PostgreSQL · SQLAlchemy 2 · Alembic · Pydantic · Argon2 · PyJWT · httpx · pytest · ruff
 
@@ -123,7 +123,7 @@ En desarrollo no hace falta `.env`: los valores por defecto están en `app/confi
 | POST             | `/lists/{id}/items`             |  ✔   | `{ variantId, quantity }` (suma si ya está)        |
 | PATCH / DELETE   | `/lists/{id}/items/{itemId}`    |  ✔   | Cantidad o quitar                                  |
 | POST             | `/lists/{id}/add-to-cart`       |  ✔   | Todo lo disponible al carrito                      |
-| GET / POST       | `/inspirations`                 |  ✔   | Fotos de Pexels guardadas                          |
+| GET / POST       | `/inspirations`                 |  ✔   | Fotos de Unsplash guardadas                        |
 | DELETE           | `/inspirations/{id}`            |  ✔   | Solo las propias (403 si es de otro)               |
 
 ### Mayoristas

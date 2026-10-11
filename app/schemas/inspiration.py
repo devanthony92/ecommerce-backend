@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Annotated
 
-from pydantic import Field, HttpUrl, StringConstraints, UrlConstraints
+from pydantic import HttpUrl, StringConstraints, UrlConstraints
 
 from app.models.inspiration import URL_LENGTH
 from app.schemas.base import CamelModel
@@ -12,7 +12,7 @@ Url = Annotated[HttpUrl, UrlConstraints(max_length=URL_LENGTH, allowed_schemes=[
 
 class InspirationIn(CamelModel):
     keyword: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=100)]
-    pexels_id: int = Field(gt=0)
+    photo_id: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=64)]
     alt: Annotated[str, StringConstraints(strip_whitespace=True, max_length=500)] = ""
     photographer: Annotated[
         str, StringConstraints(strip_whitespace=True, min_length=1, max_length=200)
@@ -27,7 +27,7 @@ class InspirationOut(CamelModel):
 
     id: int
     keyword: str
-    pexels_id: int
+    photo_id: str
     alt: str
     photographer: str
     photographer_url: str

@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import TYPE_CHECKING
 
-from sqlalchemy import BigInteger, DateTime, ForeignKey, String, UniqueConstraint, func
+from sqlalchemy import DateTime, ForeignKey, String, UniqueConstraint, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database import Base
@@ -13,17 +13,18 @@ URL_LENGTH = 2048
 
 
 class Inspiration(Base):
-    """Foto de Pexels que un usuario guardó desde la página Inspiración."""
+    """Foto de Unsplash que un usuario guardó desde la página Inspiración."""
 
     __tablename__ = "inspirations"
     __table_args__ = (
-        UniqueConstraint("owner_id", "pexels_id", name="uq_inspirations_owner_pexels_id"),
+        UniqueConstraint("owner_id", "photo_id", name="uq_inspirations_owner_photo_id"),
     )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     # Palabra con la que se encontró la foto.
     keyword: Mapped[str] = mapped_column(String(100))
-    pexels_id: Mapped[int] = mapped_column(BigInteger)
+    # Id de la foto en Unsplash (texto, p. ej. "Dwu85P9SOIk").
+    photo_id: Mapped[str] = mapped_column(String(64))
     alt: Mapped[str] = mapped_column(String(500), default="")
     photographer: Mapped[str] = mapped_column(String(200))
     photographer_url: Mapped[str] = mapped_column(String(URL_LENGTH))

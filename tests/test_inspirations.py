@@ -4,12 +4,12 @@ from tests.conftest import auth_headers, error_of
 
 PHOTO = {
     "keyword": "denim",
-    "pexelsId": 1043474,
+    "photoId": "Dwu85P9SOIk",
     "alt": "Persona con chaqueta de jean",
     "photographer": "Daniel Xavier",
-    "photographerUrl": "https://www.pexels.com/@danxavier",
-    "link": "https://www.pexels.com/photo/1043474/",
-    "image": "https://images.pexels.com/photos/1043474/portrait.jpeg",
+    "photographerUrl": "https://unsplash.com/@danxavier",
+    "link": "https://unsplash.com/photos/Dwu85P9SOIk",
+    "image": "https://images.unsplash.com/photo-1520975916090?w=600",
 }
 
 
@@ -28,7 +28,7 @@ def test_crea_y_lista_sin_exponer_el_dueno(client):
 
     assert created.status_code == 201
     body = created.json()
-    assert body["pexelsId"] == PHOTO["pexelsId"]
+    assert body["photoId"] == PHOTO["photoId"]
     assert body["photographerUrl"] == PHOTO["photographerUrl"]
     assert "createdAt" in body
     assert "owner" not in created.text
@@ -49,11 +49,11 @@ def test_cada_usuario_ve_solo_lo_suyo(client):
 
 def test_lista_de_la_mas_reciente_a_la_mas_antigua(client):
     headers = auth_headers(client)
-    for pexels_id in (1, 2, 3):
-        client.post("/inspirations", json={**PHOTO, "pexelsId": pexels_id}, headers=headers)
+    for photo_id in ("a", "b", "c"):
+        client.post("/inspirations", json={**PHOTO, "photoId": photo_id}, headers=headers)
 
-    ids = [item["pexelsId"] for item in client.get("/inspirations", headers=headers).json()]
-    assert ids == [3, 2, 1]
+    ids = [item["photoId"] for item in client.get("/inspirations", headers=headers).json()]
+    assert ids == ["c", "b", "a"]
 
 
 def test_guardar_la_misma_foto_dos_veces_responde_409(client):
@@ -69,7 +69,7 @@ def test_valida_urls_y_campos_obligatorios(client):
     headers = auth_headers(client)
     response = client.post(
         "/inspirations",
-        json={**PHOTO, "image": "javascript:alert(1)", "keyword": "", "pexelsId": 0},
+        json={**PHOTO, "image": "javascript:alert(1)", "keyword": "", "photoId": ""},
         headers=headers,
     )
 
@@ -77,7 +77,7 @@ def test_valida_urls_y_campos_obligatorios(client):
     details = error_of(response)["details"]
     assert details["image"] == "Debe ser una URL válida (http o https)."
     assert details["keyword"] == "Campo obligatorio."
-    assert details["pexelsId"] == "Debe ser mayor que 0."
+    assert details["photoId"] == "Campo obligatorio."
 
 
 def test_borra_la_propia_y_luego_no_existe(client):
