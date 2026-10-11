@@ -11,7 +11,9 @@ def test_me_devuelve_correo_y_nombre(client):
     response = client.get("/users/me", headers=headers)
 
     assert response.status_code == 200
-    assert response.json() == {"id": 1, "email": "laura@trama.co", "name": "Laura"}
+    body = response.json()
+    assert {"id": 1, "email": "laura@trama.co", "name": "Laura"}.items() <= body.items()
+    assert body["role"] == "BUYER"
 
 
 def test_me_sin_token_responde_401(client):

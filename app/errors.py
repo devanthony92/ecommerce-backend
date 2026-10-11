@@ -11,6 +11,8 @@ from typing import Any
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel, ValidationError
+from pydantic.alias_generators import to_camel
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from app.logging_config import error_logger
@@ -59,8 +61,12 @@ def _validation_message(error: dict[str, Any]) -> str:
         return f"Debe tener al menos {ctx.get('min_length')} caracteres."
     if kind == "string_too_long":
         return f"Debe tener como máximo {ctx.get('max_length')} caracteres."
-    if kind == "value_error" and "email" in str(error.get("msg", "")).lower():
-        return "Ingresa un correo válido."
+    if kind == "value_error":
+        message = str(ctx.get("error", ""))
+        # email-validator responde en inglés: se usa un mensaje propio.
+        if not message or "email" in message.lower() or "@" in message:
+            return "Ingresa un correo válido."
+        return message
     if kind.startswith("url"):
         return "Debe ser una URL válida (http o https)."
     if kind in ("int_parsing", "int_type", "int_from_float"):
@@ -74,8 +80,25 @@ def _validation_message(error: dict[str, Any]) -> str:
     return "Valor no válido."
 
 
+def validate_payload(model: type[BaseModel], data: dict[str, Any]) -> BaseModel:
+    """Valida datos armados en el controlador (p. ej. un PATCH fusionado con lo guardado).
+
+    Los errores salen con el mismo formato que la validación del cuerpo.
+    """
+    try:
+        return model.model_validate(data)
+    except ValidationError as exc:
+        raise RequestValidationError(
+            [{**error, "loc": ("body", *error["loc"])} for error in exc.errors()]
+        ) from None
+
+
 def _field_name(loc: tuple[Any, ...]) -> str:
     # ("body", "email") → "email"; ("path", "inspiration_id") → "inspiration_id".
+    # Los campos del cuerpo van en camelCase, como los envía el frontend (un campo
+    # que falta llega con su nombre de Python: accept_terms → acceptTerms).
+    if loc[0] == "body":
+        return ".".join(to_camel(part) if isinstance(part, str) else str(part) for part in loc[1:])
     parts = [str(part) for part in loc[1:]] or [str(loc[0])]
     return ".".join(parts)
 

@@ -34,7 +34,11 @@ def schema():
 def clean_tables():
     yield
     with engine.begin() as connection:
-        connection.execute(text("TRUNCATE inspirations, users RESTART IDENTITY CASCADE"))
+        connection.execute(
+            text(
+                "TRUNCATE password_resets, addresses, inspirations, users RESTART IDENTITY CASCADE"
+            )
+        )
 
 
 @pytest.fixture

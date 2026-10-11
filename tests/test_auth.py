@@ -30,7 +30,7 @@ def test_signup_valida_el_cuerpo_antes_del_controlador(client):
     assert error["code"] == "VALIDATION_ERROR"
     assert error["details"] == {
         "email": "Ingresa un correo válido.",
-        "password": "Debe tener al menos 8 caracteres.",
+        "password": "Mínimo 8 caracteres.",
         "name": "Debe tener al menos 2 caracteres.",
     }
 
