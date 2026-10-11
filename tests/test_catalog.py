@@ -1,15 +1,4 @@
-from sqlalchemy import update
-
-from app.database import engine
-from app.models import User
-from tests.conftest import auth_headers, error_of
-
-
-def wholesale_headers(client, email="tienda@trama.co"):
-    headers = auth_headers(client, email)
-    with engine.begin() as connection:
-        connection.execute(update(User).where(User.email == email).values(role="WHOLESALE"))
-    return headers
+from tests.conftest import auth_headers, error_of, wholesale_headers
 
 
 def test_categorias_con_conteo_e_imagen(client):
