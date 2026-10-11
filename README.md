@@ -4,7 +4,7 @@ Backend de Trama, tienda de ropa con compra individual y compra por volumen para
 
 FastAPI · PostgreSQL · SQLAlchemy 2 · Alembic · Pydantic · Argon2 · PyJWT · httpx · pytest · ruff
 
-API desplegada: _pendiente_
+API desplegada: https://api-devama.duckdns.org · Tienda: https://devama.duckdns.org
 
 ## Requisitos
 
